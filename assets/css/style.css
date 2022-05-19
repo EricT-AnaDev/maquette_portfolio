@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "lato";
+    src: url("../font/Lato-Regular.ttf");
+}
+
+* {
+    font-family: "lato", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* section header */
+
+.parallax {
+    background-image: url("../img/parallax1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+header nav a {
+    padding-right: .5rem;
+    text-decoration: none;
+    transition: all .3s;
+}
+header nav a:hover{
+    background-color: blue;
+}
+
+header nav li {
+    color: #A9A8AD;
+}
+header nav i{
+    padding: 0 .5rem;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+#center {
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+    /*  width: fit-content; */
+    font-weight: lighter;
+    letter-spacing: 6px;
+}
+
+header input,
+header button {
+    border: none;
+    background: none;
+    margin-right: 1rem;
+}
+
+/* section 1 about */
+#about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+#align p {
+    margin-bottom: 2rem;
+}
+
+#align {
+    width: 50%;
+    text-align: center;
+    color: #A9A8AD;
+}
+
+#align p:last-child {
+    text-align: left;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#myName {
+    width: 50%;
+    display: flex;
+    margin-top: 2rem;
+    color: #A9A8AD;
+    justify-content: space-around;
+}
+
+#myName figure {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#myName p {
+    width: 48%
+}
+
+#myName figure Img {
+    width: 100%;
+}
+
+#myName figcaption {
+    margin-bottom: 2rem;
+}
+
+h3 {
+    text-align: center;
+    color: #A9A8AD;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: small;
+}
+
+/* fin de l'exercice FOAD */
