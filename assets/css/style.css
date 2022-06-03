@@ -33,14 +33,16 @@ header nav a {
     text-decoration: none;
     transition: all .3s;
 }
-header nav a:hover{
+
+header nav a:hover {
     background-color: blue;
 }
 
 header nav li {
     color: #A9A8AD;
 }
-header nav i{
+
+header nav i {
     padding: 0 .5rem;
 }
 
@@ -142,4 +144,143 @@ h3 {
     font-size: small;
 }
 
-/* fin de l'exercice FOAD */
+/* fin de l'exercice FOAD 1*/
+
+#progressBar {
+    width: 50%;
+    margin: 1rem auto;
+    /* position: relative;
+    left: -150%;
+    transition: all 2s;
+ */
+}
+
+#progressBar p {
+    color: #A9A8AD;
+    margin-bottom: 1rem;
+
+}
+
+.grey {
+    height: 2rem;
+    border: #F1F1F1 2px solid;
+    background-color: #F1F1F1;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#photoBlack {
+    height: 2rem;
+    width: 90%;
+    background-color: #616161;
+}
+
+#webBlack {
+    height: 2rem;
+    width: 85%;
+    background-color: #616161;
+}
+
+#shopBlack {
+    height: 2rem;
+    width: 75%;
+    background-color: #616161;
+}
+
+#photoBlack p,
+#webBlack p,
+#shopBlack p {
+    text-align: center;
+    padding: 0.4rem;
+    color: white;
+}
+
+/* section portFolio */
+#work {
+    height: 5rem;
+    border: #616161 2px solid;
+    background-color: #616161;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#work p {
+    color: white;
+    display: inline-block;
+    padding: 1.5rem;
+
+}
+
+.smallFont {
+    font-size: 60%;
+    font-weight: 100;
+}
+
+#portFolio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.parallaxFolio {
+    width: 100%;
+    background-image: url("../img/parallax2.jpg");
+    height: 40vh;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallaxFolio h2 {
+    color: white;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+#myWork{
+    width: 100%;
+    text-align: center;
+/*     text-align: center;
+    align-items: center; */
+}
+
+#myWork h2{
+    color: #787882;
+    font-weight: 300;
+}
+#myWork p{
+    color: #787882;
+    font-size: small;
+    margin-bottom: 2rem;
+}
+#myImg{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+}
+.photos{
+    width: 24%;
+    margin-bottom: .5rem;
+}
+.photos img{
+    width: 100%;
+    margin: 0 auto;
+}
+ #load {
+    width: 100%;
+    text-align: center;
+ }
+#load button{
+    background-color: #F1F1F1;
+    color: black;
+    padding: 1rem;
+    border: none;
+    /* margin: 0 auto; */
+}
+/* fin de l'exercice FOAD 2*/
