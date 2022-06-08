@@ -10,7 +10,7 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/script.js" type="module" defer></script>
 </head>
 
 <body>
@@ -76,19 +76,19 @@
             <div id="progressBar">
                 <p><i class="fa-solid fa-camera"></i> Photography</p>
                 <div class="grey">
-                    <div id="photoBlack">
+                    <div id="photoBlack" class="bRange">
                         <p>90%</p>
                     </div>
                 </div>
                 <p><i class="fa-solid fa-laptop"></i> Web Design</p>
                 <div class="grey">
-                    <div id="webBlack">
+                    <div id="webBlack" class="bRange">
                         <p>85%</p>
                     </div>
                 </div>
                 <p><i class="fa-solid fa-image"></i> Photoshop</p>
                 <div class="grey">
-                    <div id="shopBlack">
+                    <div id="shopBlack" class="bRange">
                         <p>75%</p>
                     </div>
                 </div>
@@ -108,34 +108,14 @@
                 <div id="myWork">
                     <h2>MY WORK</h2>
                     <p class="italic">Here ar some of my latest work ipsum tipsum. <br>
-                    Click on the images to make them bigger.</p>
+                        Click on the images to make them bigger.</p>
                 </div>
                 <div id="myImg">
                     <div class="photos">
-                        <img src="./assets/img/p1.jpg" alt="">
+                        <!--  <img src="./assets/img/p1.jpg" alt=""> -->
                     </div>
-                    <div class="photos">
-                        <img src="./assets/img/p2.jpg" alt="">
-                    </div>
-                    <div class="photos">
-                        <img src="./assets/img/p3.jpg" alt="">
-                    </div>
-                    <div class="photos">
-                        <img src="./assets/img/p4.jpg" alt="">
-                    </div>
-                    <div class="photos">
-                        <img src="./assets/img/p5.jpg" alt="">
-                    </div>
-                    <div class="photos">
-                        <img src="./assets/img/p6.jpg" alt="">
-                    </div>
-                    <div class="photos">
-                        <img src="./assets/img/p7.jpg" alt="">
-                    </div>
-                    <div class="photos">
-                        <img src="./assets/img/p8.jpg" alt="">
-                    </div>            
-                   
+
+
                 </div>
                 <div id="load">
                     <button>LOAD MORE</button>

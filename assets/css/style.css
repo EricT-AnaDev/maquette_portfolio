@@ -168,8 +168,15 @@ h3 {
     width: 100%;
     margin-bottom: 1rem;
 }
-
-#photoBlack {
+.bRange{
+    width: 0;
+    height: 2rem;
+    background-color: #616161;
+    text-align: center;
+    color: white;
+    transition: all 2s;
+}
+/* #photoBlack {
     height: 2rem;
     width: 90%;
     background-color: #616161;
@@ -193,7 +200,7 @@ h3 {
     text-align: center;
     padding: 0.4rem;
     color: white;
-}
+} */
 
 /* section portFolio */
 #work {
@@ -263,10 +270,6 @@ h3 {
     display: flex;
     flex-wrap:wrap ;
     justify-content: space-between;
-}
-.photos{
-    width: 24%;
-    margin-bottom: .5rem;
 }
 .photos img{
     width: 100%;
